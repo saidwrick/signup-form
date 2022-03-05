@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "side-bar">
+        <div class = "logo">
+            <div>
+                <img src="img/logo.png" alt = "logo">
+            </div>
+            <div class = logo-text>ODIN</div>
+        </div>
+        <div class = "copyright">copyright blah blah</div>
+    </div>
+    <div class = "main-content">
+        <div class = "prompt">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.<br><br>You <em>know</em> you want to.
+        </div>
+        <div class = "form">
+            <div class = "title">Let's do this!</div>
+            <form id = "my-form" method = "post" action = "">
+                <div class = "left">
+                    <label for = "firstName">First Name</label>
+                    <input type = "text" id = "firstName" name = "firstName">
+
+                    <label for = "email">Email</label>
+                    <input type = "email" id = "email" name = "email">
+
+                    <label for = "password">Password</label>
+                    <input type = "password" id = "password" name = "password" required>
+                </div>
+                <div class = "right">
+                    <label for = "lastName">Last Name</label>
+                    <input type = "text" id = "lastName" name = "lastName">
+
+                    <label for = "phoneNumber">Phone Number</label>
+                    <input type = "tel" id = "phoneNumber" name = "phoneNumber">
+
+                    <label for = "confirmPassword">Confirm Password</label>
+                    <input type = "password" id = "confirmPassword" name = "confirmPassword" required>
+                </div>
+            </form>
+        </div>
+        <div class = "sign-up">
+            <button type="submit" form="my-form">Create Account</button>
+            <div class = "text">Already have an account? <a href = "">Log in</a></div>
+        </div>
+    </div>
+</body>
+</html>
